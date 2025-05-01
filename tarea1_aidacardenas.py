@@ -1,5 +1,3 @@
-import os
-import sys
 import numpy as np
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
@@ -37,7 +35,7 @@ class Interfaz:
         main_frame.pack(fill=tk.BOTH, expand=True)
 
         # configuracion
-        config_frame = ttk.LabelFrame(main_frame, text="Configuración del perceptrón", padding="10")
+        config_frame = ttk.LabelFrame(main_frame, text="Configuración del perceptron", padding="10")
         config_frame.pack(fill=tk.X, pady=5)
         
         ttk.Button(config_frame, text="Cargar archivo de configuración", command=self.cargar_configuracion).pack(fill=tk.X, pady=5)
