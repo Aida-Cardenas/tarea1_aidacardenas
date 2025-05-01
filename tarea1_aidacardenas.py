@@ -233,7 +233,7 @@ class Interfaz:
                 resultado = self.activacion_sigmoide(suma)
                 self.resultados_text.insert(tk.END, f"Vector {i+1}: {vector}\n")
                 self.resultados_text.insert(tk.END, f"Suma ponderada: {suma}\n")
-                self.resultados_text.insert(tk.END, f"Respuesta del perceptrón (funciónsigmoide): {resultado}\n")
+                self.resultados_text.insert(tk.END, f"Respuesta del perceptrón (función sigmoide): {resultado}\n")
             
             self.resultados_text.insert(tk.END, "-" * 40 + "\n")
         
